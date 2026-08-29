@@ -1,0 +1,41 @@
+{
+  "users": [],
+  "orders": [
+    {
+      "id": "47d3ff7f-9d42-4f1f-a374-47ea80952e88",
+      "customer": {
+        "name": "MIGUEL KAMGA",
+        "email": "kamgamiguel49@gmail.com",
+        "phone": "681170693",
+        "address": "DOUALA"
+      },
+      "items": [
+        {
+          "productId": 8,
+          "name": "Adaptateur Bluetooth",
+          "qty": 1,
+          "unitPrice": 11000,
+          "lineTotal": 11000
+        },
+        {
+          "productId": 3,
+          "name": "Chargeur USB-C rapide",
+          "qty": 1,
+          "unitPrice": 9000,
+          "lineTotal": 9000
+        }
+      ],
+      "total": 20000,
+      "status": "pending",
+      "payment": {
+        "provider": "orange",
+        "status": "test_pending",
+        "transactionId": "TEST-51c70d4a-e9fe-4965-938e-ecc2becd5efa",
+        "createdAt": "2026-08-29T19:18:21.295Z"
+      },
+      "createdAt": "2026-08-29T19:18:19.206Z"
+    }
+  ],
+  "reviews": [],
+  "newsletter": []
+}
